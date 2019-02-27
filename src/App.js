@@ -16,11 +16,6 @@ class BooksApp extends React.Component {
     ))
   }
 
-  onQueryBooks = (books) => { // query of search
-    console.log(books);
-    
-  };  
-
   onUpdateBook = (book, shelf) => {
     let books = [...this.state.books];
     let indexBook = books.indexOf(book);

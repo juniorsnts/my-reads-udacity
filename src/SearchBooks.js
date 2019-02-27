@@ -25,7 +25,7 @@ class SearchBooks extends Component {
                     }
                     this.setState({ books: booksState, booksExist: true });
                 } else {
-                    this.setState({ booksExist: false })
+                    this.setState({ books: [], booksExist: false })
                 }
             })
         } else {

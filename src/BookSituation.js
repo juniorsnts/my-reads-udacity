@@ -5,8 +5,8 @@ function BookSituation(props) {
     const situations = ["Currently Reading", "Want to Read", "Read"];
     return (
         <div className="bookshelf">
-            {situations.map((situation, index) => (
-                <div key={index}>
+            {situations.map((situation) => (
+                <div key={situation}>
                     <h2 className="bookshelf-title">{situation}</h2>
                     <div className="bookshelf-books">
                         <ol className="books-grid">
